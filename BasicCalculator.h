@@ -11,4 +11,4 @@ bool isdigit(char c );
 void eval(stack<int> &num,stack<char>& op);
 int calculate(string s);
 
-#endif //MAIN_CPP_BASICCALCULATOR_H
+#endif

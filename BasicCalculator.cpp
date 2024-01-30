@@ -8,6 +8,7 @@ bool isdigit(char c )
         return true;
     return false;
 }
+
 void eval(stack<int> &num,stack<char>& op) {
     auto c = op.top();  op.pop();
     auto b = num.top(); num.pop();
